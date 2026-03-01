@@ -11,8 +11,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy
-        uses: Raul164744/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: . # The folder the action should deploy.
-          config: baseUrl=/
+          folder: .
